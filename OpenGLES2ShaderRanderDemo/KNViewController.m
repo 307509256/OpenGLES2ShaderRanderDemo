@@ -47,7 +47,9 @@
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         
-        NSString* filepath = [[NSBundle mainBundle] pathForResource:@"1280" ofType:@"mp4"];
+        [UIApplication sharedApplication].idleTimerDisabled = YES;
+        
+        NSString* filepath = [[NSBundle mainBundle] pathForResource:@"snsd" ofType:@"mp4"];
         if (!filepath)
             return;
         
@@ -71,6 +73,8 @@
 
         dispatch_sync(dispatch_get_main_queue(), ^{
             [sender setEnabled:YES];
+            
+            [UIApplication sharedApplication].idleTimerDisabled = NO;
         });
     });
 }
