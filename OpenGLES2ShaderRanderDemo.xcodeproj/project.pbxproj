@@ -31,6 +31,8 @@
 		1D67DA8516637AB100B14E23 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D67DA8416637AB100B14E23 /* libz.1.1.3.dylib */; };
 		1D67DA89166383E800B14E23 /* KNGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D67DA88166383E800B14E23 /* KNGLView.m */; };
 		1D67DA8A166392CC00B14E23 /* snsd.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1D67DA8316637A7100B14E23 /* snsd.mp4 */; };
+		1D9D053C1665A1550001AA39 /* mov.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D053A1665A12D0001AA39 /* mov.mp4 */; };
+		1D9D05401665AA980001AA39 /* 1280.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D053F1665AA640001AA39 /* 1280.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +141,8 @@
 		1D67DA8416637AB100B14E23 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
 		1D67DA87166383E800B14E23 /* KNGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNGLView.h; sourceTree = "<group>"; };
 		1D67DA88166383E800B14E23 /* KNGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNGLView.m; sourceTree = "<group>"; };
+		1D9D053A1665A12D0001AA39 /* mov.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mov.mp4; sourceTree = "<group>"; };
+		1D9D053F1665AA640001AA39 /* 1280.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1280.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 		1D67D9E6166379F000B14E23 = {
 			isa = PBXGroup;
 			children = (
+				1D9D053F1665AA640001AA39 /* 1280.mp4 */,
+				1D9D053A1665A12D0001AA39 /* mov.mp4 */,
 				1D67DA8316637A7100B14E23 /* snsd.mp4 */,
 				1D67DA861663802700B14E23 /* OGLES2Render */,
 				1D67DA7C16637A6D00B14E23 /* FFmpegWrapper */,
@@ -463,6 +469,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9D05401665AA980001AA39 /* 1280.mp4 in Resources */,
+				1D9D053C1665A1550001AA39 /* mov.mp4 in Resources */,
 				1D67DA8A166392CC00B14E23 /* snsd.mp4 in Resources */,
 				1D67DA00166379F100B14E23 /* InfoPlist.strings in Resources */,
 				1D67DA08166379F100B14E23 /* Default.png in Resources */,
@@ -611,6 +619,7 @@
 				1D67DA17166379F100B14E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

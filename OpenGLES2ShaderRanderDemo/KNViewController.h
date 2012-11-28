@@ -13,4 +13,6 @@
 @property (retain, nonatomic) IBOutlet UIView* viewVideo;
 @property (retain, nonatomic) KNGLView* glView;
 - (IBAction)render:(id)sender;
+- (IBAction)changeFit:(id)sender;
+- (IBAction)resizeUIView:(id)sender;
 @end

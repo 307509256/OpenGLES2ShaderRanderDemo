@@ -169,6 +169,8 @@ static void mat4f_LoadOrtho(float left, float right, float bottom, float top, fl
     
     GLint           uniformSamplers_[3];
     GLuint          textures_[3];
+    
+    CGSize          frameSize_;
 }
 - (void)setupLayer;
 - (BOOL)setupContext;
@@ -308,6 +310,8 @@ static void mat4f_LoadOrtho(float left, float right, float bottom, float top, fl
     
     glGetRenderbufferParameteriv(GL_RENDERBUFFER, GL_RENDERBUFFER_WIDTH, &backingWidth_);
     glGetRenderbufferParameteriv(GL_RENDERBUFFER, GL_RENDERBUFFER_HEIGHT, &backingHeight_);
+    
+    NSLog(@"Backing Width : %d, Height :%d", backingWidth_, backingHeight_);
 }
 
 - (BOOL)setupFrameBuffer {
@@ -376,14 +380,18 @@ exit:
 }
 
 - (void)updateVertices {
+
     const BOOL fit      = (self.contentMode == UIViewContentModeScaleAspectFit);
-    const float width   = (float)backingWidth_;
-    const float height  = (float)backingHeight_;
-    const float dH      = (float)backingWidth_ / height;
-    const float dW      = (float)backingHeight_	  / width;
+    const float width   = frameSize_.width;
+    const float height  = frameSize_.height;
+    const float dH      = (float)backingHeight_ / height;
+    const float dW      = (float)backingWidth_	  / width;
     const float dd      = fit ? MIN(dH, dW) : MAX(dH, dW);
-    const float h       = (height * dd / (float)backingWidth_);
-    const float w       = (width  * dd / (float)backingHeight_);
+    float h             = (height * dd / (float)backingHeight_);
+    float w             = (width  * dd / (float)backingWidth_ );
+    
+    if (fit == NO)
+        w = h = 1;
     
     vertices_[0] = - w;
     vertices_[1] = - h;
@@ -393,31 +401,36 @@ exit:
     vertices_[5] =   h;
     vertices_[6] =   w;
     vertices_[7] =   h;
+    
+    NSLog(@"Vertices w:%.0f h:%.0f", w, h);
 }
 
 - (void)makeTexture:(NSDictionary *)frameData {
     
-    NSInteger width = [[frameData objectForKey:@"width"] integerValue];
-    NSInteger heigth = [[frameData objectForKey:@"height"] integerValue];
-    NSData* luma = [frameData objectForKey:@"luma"];
-    NSData* chromaB = [frameData objectForKey:@"chromaB"];
-    NSData* chromaR = [frameData objectForKey:@"chromaR"];
+    NSInteger width     = [[frameData objectForKey:@"width"] integerValue];
+    NSInteger heigth    = [[frameData objectForKey:@"height"] integerValue];
+    NSData* luma        = [frameData objectForKey:@"luma"];
+    NSData* chromaB     = [frameData objectForKey:@"chromaB"];
+    NSData* chromaR     = [frameData objectForKey:@"chromaR"];
     
+    CGSize frameSize = CGSizeMake(width, heigth);
+    if ((CGSizeEqualToSize(frameSize_, frameSize) == NO)) {
+        frameSize_ = frameSize;
+        [self updateVertices];
+    }
+        
     assert(luma.length == width * heigth);
     assert(chromaB.length == (width * heigth) / 4);
     assert(chromaR.length == (width * heigth) / 4);
-    
-    const NSUInteger frameWidth = width;
-    const NSUInteger frameHeight = heigth;
-    
+
     glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
     
     if (0 == textures_[0])
         glGenTextures(3, textures_);
     
     const UInt8 *pixels[3] = { luma.bytes, chromaB.bytes, chromaR.bytes };
-    const NSUInteger widths[3]  = { frameWidth, frameWidth / 2, frameWidth / 2 };
-    const NSUInteger heights[3] = { frameHeight, frameHeight / 2, frameHeight / 2 };
+    const NSUInteger widths[3]  = { width, width / 2, width / 2 };
+    const NSUInteger heights[3] = { heigth, heigth / 2, heigth / 2 };
     
     for (int i = 0; i < 3; ++i) {
         
@@ -463,7 +476,7 @@ exit:
         0.0f, 0.0f,
         1.0f, 0.0f,
     };
-	
+    
     [EAGLContext setCurrentContext:_context];
     
     glBindFramebuffer(GL_FRAMEBUFFER, framebuffer_);

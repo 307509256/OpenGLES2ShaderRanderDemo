@@ -43,9 +43,13 @@
 
 - (IBAction)render:(id)sender {
     
+    [sender setEnabled:NO];
+    
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         
-        NSString* filepath = [[NSBundle mainBundle] pathForResource:@"snsd" ofType:@"mp4"];
+        NSString* filepath = [[NSBundle mainBundle] pathForResource:@"1280" ofType:@"mp4"];
+        if (!filepath)
+            return;
         
         KNFFmpegFileReader* reader = [[KNFFmpegFileReader alloc] initWithFilepath:filepath];
         KNFFmpegDecoder* dec = [[KNFFmpegDecoder alloc] initWithCodecContext:reader.codecCtx
@@ -53,7 +57,7 @@
         
         [reader readFrame:^(AVPacket *packet) {
             [dec decodeFrame:packet completion:^(NSDictionary* frameData) {
-                dispatch_async(dispatch_get_main_queue(), ^{
+                dispatch_sync(dispatch_get_main_queue(), ^{
                     [frameData retain];
                     [_glView render:frameData];
                     [frameData release];
@@ -63,7 +67,35 @@
         [dec endDecode];
         [dec release];
         [reader release];
+        
+        [sender performSelectorOnMainThread:@selector(setEnabled:) withObject:[NSNumber numberWithBool:YES] waitUntilDone:NO];
     });
 }
 
+- (IBAction)changeFit:(id)sender {
+    
+    if (_glView.contentMode == UIViewContentModeScaleAspectFit) {
+        _glView.contentMode = UIViewContentModeScaleAspectFill;
+    } else {
+        _glView.contentMode = UIViewContentModeScaleAspectFit;
+    }
+}
+
+static BOOL resized = NO;
+- (IBAction)resizeUIView:(id)sender {
+    
+    if (resized == NO) {
+        [UIView animateWithDuration:0.3 animations:^{
+            self.glView.frame = CGRectMake(0, 0, 320, 240);
+        } completion:^(BOOL finished) {
+            resized = !resized;
+        }];
+    } else {
+        [UIView animateWithDuration:0.3 animations:^{
+            self.glView.frame = CGRectMake(0, 0, 1024, 670);
+        } completion:^(BOOL finished) {
+            resized = !resized;
+        }];
+    }
+}
 @end

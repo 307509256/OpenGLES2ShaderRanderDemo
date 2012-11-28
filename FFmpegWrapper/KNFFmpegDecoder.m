@@ -79,9 +79,11 @@
         }
 
         if (completion) {
+            NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
             NSDictionary* frameData = [[self makeFrameData] retain];;
             completion(frameData);
             [frameData release];
+            [pool release];
         }
     }
 }
@@ -96,7 +98,7 @@
     NSMutableDictionary* frameData = [NSMutableDictionary dictionary];
     [frameData setObject:[NSNumber numberWithInt:pCodecCtx->width] forKey:kKNFFDecKeyWidth];
     [frameData setObject:[NSNumber numberWithInt:pCodecCtx->height] forKey:kKNFFDecKeyHeigth];
-    ///이부분 병렬처리 해볼것.
+
     NSData* ydata = [self copYUVData:pFrame->data[0] linesize:pFrame->linesize[0] width:pCodecCtx->width height:pCodecCtx->height];
     NSData* udata = [self copYUVData:pFrame->data[1] linesize:pFrame->linesize[1] width:pCodecCtx->width/2 height:pCodecCtx->height/2];
     NSData* vdata = [self copYUVData:pFrame->data[2] linesize:pFrame->linesize[2] width:pCodecCtx->width/2 height:pCodecCtx->height/2];

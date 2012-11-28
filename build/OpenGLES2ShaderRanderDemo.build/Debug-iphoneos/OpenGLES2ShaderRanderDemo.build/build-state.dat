@@ -1,0 +1,741 @@
+TOpenGLES2ShaderRanderDemo
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/ResourceRules.plist
+cProcessInfoPlistFile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Info.plist OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Info.plist
+cProcessPCH /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch.pth OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNAppDelegate.o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/main.o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNViewController.o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegDecoder.o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegDecoder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegFileReader.o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegFileReader.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNGLView.o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OGLES2Render/KNGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/OpenGLES2ShaderRanderDemo normal armv7
+cGenerateDSYMFile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app.dSYM /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/OpenGLES2ShaderRanderDemo
+cCpResource 1280.mp4 build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1280.mp4
+cCpResource mov.mp4 build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/mov.mp4
+cCpResource snsd.mp4 build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/snsd.mp4
+cCopyStringsFile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/en.lproj/InfoPlist.strings OpenGLES2ShaderRanderDemo/en.lproj/InfoPlist.strings
+cCopyPNGFile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default.png OpenGLES2ShaderRanderDemo/Default.png
+cCopyPNGFile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default@2x.png OpenGLES2ShaderRanderDemo/Default@2x.png
+cCopyPNGFile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default-568h@2x.png OpenGLES2ShaderRanderDemo/Default-568h@2x.png
+cCompileXIB /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/en.lproj/KNViewController.xib
+cProcessProductPackaging "/Users/cyh/Library/MobileDevice/Provisioning Profiles/ACC8BAB4-8A05-4370-95C8-B1FF43AB6818.mobileprovision" /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/cyh/Library/MobileDevice/Provisioning Profiles/ACC8BAB4-8A05-4370-95C8-B1FF43AB6818.mobileprovision" /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/embedded.mobileprovision
+cTouch /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo.xcent
+cCodeSign /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c000000005097585B0000000000000132
+t1352095835
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c00000000506E33D80000000000000094
+t1349399512
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c00000000506E33D80000000000000096
+t1349399512
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000506E33DB0000000000322740
+t1349399515
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506E33DD0000000000629C80
+t1349399517
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000506E33DC00000000000015F7
+t1349399516
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000506E33DD0000000000024190
+t1349399517
+s147856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000506E33DE0000000000359720
+t1349399518
+s3512096
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000506E33DE0000000000000E8D
+t1349399518
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000506E33E100000000011BA850
+t1349399521
+s18589776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/Availability.h
+c00000000506E33E70000000000001B54
+t1349399527
+s6996
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/lib/libz.1.1.3.dylib
+c00000000506E33EA0000000000022520
+t1349399530
+s140576
+
+N/Users/cyh/Library/MobileDevice/Provisioning Profiles/ACC8BAB4-8A05-4370-95C8-B1FF43AB6818.mobileprovision
+c0000000050B4343000000000000029D6
+t1353987120
+s10710
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/1280.mp4
+c0000000050B5724F00000000028BD016
+t1354068559
+s42717206
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/1920.MOV
+c0000000050B56A99000000000373FC8C
+t1354066585
+s57932940
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegDecoder.h
+c0000000050B3550B00000000000002FD
+t1353929995
+s765
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegDecoder.m
+c0000000050B559640000000000000DC1
+t1354062180
+s3521
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegFileReader.h
+c0000000050B3478600000000000001F8
+t1353926534
+s504
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegFileReader.m
+c0000000050B366110000000000000949
+t1353934353
+s2377
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavcodec/avcodec.h
+c0000000050AC234F00000000000293E4
+t1353458511
+s168932
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavcodec/old_codec_ids.h
+c0000000050AC234F00000000000029A3
+t1353458511
+s10659
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavcodec/version.h
+c0000000050AC234F0000000000000E3D
+t1353458511
+s3645
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavformat/avformat.h
+c0000000050AC234F0000000000012FE8
+t1353458511
+s77800
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavformat/avio.h
+c0000000050AC234F00000000000042FB
+t1353458511
+s17147
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavformat/version.h
+c0000000050AC234F0000000000000C6F
+t1353458511
+s3183
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/attributes.h
+c0000000050AC234F0000000000000F56
+t1353458511
+s3926
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/avconfig.h
+c0000000050AC234F00000000000000D2
+t1353458511
+s210
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/avutil.h
+c0000000050AC234F0000000000001559
+t1353458511
+s5465
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/channel_layout.h
+c0000000050AC234F00000000000020A1
+t1353458511
+s8353
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/common.h
+c0000000050AC234F000000000000308D
+t1353458511
+s12429
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/cpu.h
+c0000000050AC234F00000000000010AE
+t1353458511
+s4270
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/dict.h
+c0000000050AC234F0000000000001358
+t1353458511
+s4952
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/error.h
+c0000000050AC234F0000000000001299
+t1353458511
+s4761
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/intfloat.h
+c0000000050AC234F00000000000006BA
+t1353458511
+s1722
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/intfloat_readwrite.h
+c0000000050AC234F00000000000005D0
+t1353458511
+s1488
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/log.h
+c0000000050AC234F0000000000001AE0
+t1353458511
+s6880
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/mathematics.h
+c0000000050AC234F00000000000010BF
+t1353458511
+s4287
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/mem.h
+c0000000050AC234F0000000000001E30
+t1353458511
+s7728
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/old_pix_fmts.h
+c0000000050AC234F00000000000037EB
+t1353458511
+s14315
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/pixfmt.h
+c0000000050AC234F0000000000005BE6
+t1353458511
+s23526
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/rational.h
+c0000000050AC234F0000000000000F67
+t1353458511
+s3943
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/samplefmt.h
+c0000000050AC234F00000000000024B8
+t1353458511
+s9400
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/time.h
+c0000000050AC234F0000000000000503
+t1353458511
+s1283
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libavutil/version.h
+c0000000050AC234F0000000000000E6C
+t1353458511
+s3692
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libswscale/swscale.h
+c0000000050AC234F0000000000002EA4
+t1353458511
+s11940
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/include/libswscale/version.h
+c0000000050AC234F0000000000000846
+t1353458511
+s2118
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/lib/libavcodec.a
+c0000000050B048A000000000021B9378
+t1353730208
+s35361656
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/lib/libavdevice.a
+c0000000050B047560000000000010B68
+t1353729878
+s68456
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/lib/libavformat.a
+c0000000050B047B30000000000F49628
+t1353729971
+s16029224
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/lib/libavutil.a
+c0000000050B048AE0000000000086BD0
+t1353730222
+s551888
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/lib/libswresample.a
+c0000000050B048A1000000000002C6C0
+t1353730209
+s181952
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/lib/libswscale.a
+c0000000050B048A800000000000D0688
+t1353730216
+s853640
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OGLES2Render/KNGLView.h
+c0000000050B34EEC000000000000012B
+t1353928428
+s299
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OGLES2Render/KNGLView.m
+c0000000050B56E8A00000000000036A6
+t1354067594
+s13990
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/Default-568h@2x.png
+c000000005062328600000000000048A2
+t1348612742
+s18594
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/Default.png
+c0000000050623286000000000000198C
+t1348612742
+s6540
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/Default@2x.png
+c00000000506232860000000000003EEB
+t1348612742
+s16107
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNAppDelegate.h
+c0000000050B342710000000000000181
+t1353925233
+s385
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNAppDelegate.m
+c0000000050B342710000000000000994
+t1353925233
+s2452
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNViewController.h
+c0000000050B571BC00000000000001CC
+t1354068412
+s460
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNViewController.m
+c0000000050B5732E0000000000000B5C
+t1354068782
+s2908
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Prefix.pch
+c0000000050B342710000000000000161
+t1353925233
+s353
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/en.lproj/InfoPlist.strings
+c0000000050B34271000000000000002D
+t1353925233
+s45
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/en.lproj/KNViewController.xib
+c0000000050B57220000000000005A18C
+t1354068512
+s369036
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/main.m
+c0000000050B342710000000000000161
+t1353925233
+s353
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app
+t1354068796
+s544
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app.dSYM
+t1354068792
+s102
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1280.mp4
+t1354068794
+s42717206
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1920.MOV
+t1354066732
+s57932940
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default-568h@2x.png
+t1354062177
+s7014
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default.png
+t1354062177
+s3688
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default@2x.png
+t1354062177
+s6316
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Info.plist
+t1354062172
+s1082
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/OpenGLES2ShaderRanderDemo
+t1354068796
+s8223008
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/PkgInfo
+t1354062172
+s8
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/ResourceRules.plist
+t1354062172
+s150
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/embedded.mobileprovision
+t1354062177
+s10710
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/en.lproj/InfoPlist.strings
+t1354062176
+s42
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/en.lproj/KNViewController.nib
+t1354068518
+s2160
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/mov.mp4
+t1354066396
+s17035273
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/snsd.mp4
+t1354062176
+s24350134
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNAppDelegate.o
+t1354068412
+s90064
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegDecoder.o
+t1354062181
+s58376
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegFileReader.o
+t1354062172
+s66644
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNGLView.o
+t1354067606
+s100932
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNViewController.o
+t1354068788
+s130636
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/OpenGLES2ShaderRanderDemo.LinkFileList
+c0000000050B5595C0000000000000410
+t1354062172
+s1040
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/main.o
+t1354062172
+s3496
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo.xcent
+t1354062177
+s448
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/mov.mp4
+c000000004FD73D24000000000103F009
+t1339505956
+s17035273
+
+N/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/snsd.mp4
+c0000000050B046B30000000001738DB6
+t1353729715
+s24350134
+
+N/var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch.pth
+t1354062172
+s4761300
+
+NOpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Info.plist
+c0000000050B35A690000000000000467
+t1353931369
+s1127
+
+CBuild AST from /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegDecoder.m
+r0
+
+CBuild AST from /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegFileReader.m
+r0
+
+CBuild AST from /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OGLES2Render/KNGLView.m
+r0
+
+CBuild AST from /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNAppDelegate.m
+r0
+
+CBuild AST from /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNViewController.m
+r0
+
+CBuild AST from /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies944a10e5aa65b641^327711e5aa65b641^---0#1#0#--18"Check dependencies36"C3462D99-8E19-4451-AB4D-DDF6ECEAA652-
+
+CCodeSign /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app
+s375761594.747110
+e375761596.860587
+r1
+xCodeSign
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"CodeSign build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.appc45bbfbaaa65b641^1650dcbcaa65b641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/0000000000000000^948"CodeSign build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 9f59e3d92673ba53b01e01b1e762ca0aace7859c --resource-rules=/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/ResourceRules.plist --entitlements /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo.xcent /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app36"50E39234-1A43-45BD-BB9A-DE01749411EB-
+
+CCompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNAppDelegate.o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375761212.268552
+e375761212.552272
+r1
+xCompileC
+xbuild/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNAppDelegate.o
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNAppDelegate.mc1e2443ca965b641^8b6e8d3ca965b641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNAppDelegate.m0000000000000000^3766"CompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNAppDelegate.o OpenGLES2ShaderRanderDemo/KNAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-generated-files.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-own-target-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-project-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/include -IFFmpeg_Angel/include -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources/armv7 -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources -F/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos -include /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch -MMD -MT dependencies -MF /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNAppDelegate.d --serialize-diagnostics /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNAppDelegate.dia -c /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNAppDelegate.m -o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNAppDelegate.o36"AB4CB166-90E7-4D90-8A42-BFAB9F4B65BF-
+
+CCompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegDecoder.o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegDecoder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375754981.595501
+e375754981.719655
+r1
+xCompileC
+xbuild/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegDecoder.o
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegDecoder.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegDecoder.m4a9598e59065b641^1972b8e59065b641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegDecoder.m0000000000000000^3754"CompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegDecoder.o FFmpegWrapper/KNFFmpegDecoder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-generated-files.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-own-target-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-project-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/include -IFFmpeg_Angel/include -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources/armv7 -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources -F/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos -include /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch -MMD -MT dependencies -MF /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegDecoder.d --serialize-diagnostics /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegDecoder.dia -c /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegDecoder.m -o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegDecoder.o36"A12CB805-5F58-4D59-8857-23B7C94EA96A-
+
+CCompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegFileReader.o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegFileReader.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375754972.781698
+e375754972.868728
+r1
+xCompileC
+xbuild/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegFileReader.o
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegFileReader.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegFileReader.mea42c8dc9065b641^1765dedc9065b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegFileReader.m0000000000000000^3772"CompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegFileReader.o FFmpegWrapper/KNFFmpegFileReader.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-generated-files.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-own-target-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-project-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/include -IFFmpeg_Angel/include -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources/armv7 -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources -F/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos -include /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch -MMD -MT dependencies -MF /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegFileReader.d --serialize-diagnostics /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegFileReader.dia -c /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpegWrapper/KNFFmpegFileReader.m -o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNFFmpegFileReader.o36"A45FDA36-15CC-49D7-8F42-D0CFB39B1548-
+
+CCompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNGLView.o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OGLES2Render/KNGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375760405.694720
+e375760406.168926
+r1
+xCompileC
+xbuild/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNGLView.o
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OGLES2Render/KNGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OGLES2Render/KNGLView.m97feb115a665b641^0f5e2b16a665b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OGLES2Render/KNGLView.m0000000000000000^3710"CompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNGLView.o OGLES2Render/KNGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-generated-files.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-own-target-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-project-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/include -IFFmpeg_Angel/include -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources/armv7 -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources -F/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos -include /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch -MMD -MT dependencies -MF /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNGLView.d --serialize-diagnostics /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNGLView.dia -c /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OGLES2Render/KNGLView.m -o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNGLView.o36"57A5581F-7E8C-490B-A683-9B402CA84ACA-
+
+CCompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNViewController.o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375761588.615156
+e375761588.834844
+r1
+xCompileC
+xbuild/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNViewController.o
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNViewController.mf4a79db4aa65b641^36cad6b4aa65b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNViewController.m0000000000000000^3784"CompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNViewController.o OpenGLES2ShaderRanderDemo/KNViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-generated-files.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-own-target-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-project-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/include -IFFmpeg_Angel/include -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources/armv7 -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources -F/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos -include /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch -MMD -MT dependencies -MF /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNViewController.d --serialize-diagnostics /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNViewController.dia -c /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/KNViewController.m -o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/KNViewController.o36"7A36CB86-61FF-4972-94EA-E5473445277C-
+
+CCompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/main.o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375754972.746556
+e375754972.780437
+r1
+xCompileC
+xbuild/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/main.o
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/main.ma244bfdc9065b641^45d9c7dc9065b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/main.m0000000000000000^3712"CompileC build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/main.o OpenGLES2ShaderRanderDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-generated-files.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-own-target-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-project-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/include -IFFmpeg_Angel/include -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources/armv7 -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources -F/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos -include /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch -MMD -MT dependencies -MF /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/main.d --serialize-diagnostics /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/main.dia -c /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/main.m -o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/main.o36"36EA567A-612F-475B-B692-FD6A69824A3D-
+
+CCompileXIB /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/en.lproj/KNViewController.xib
+s375761315.673444
+e375761318.390757
+r1
+xCompileXIB
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/en.lproj/KNViewController.xib
+o2012-11-28 11:08:38.261 Interface Builder Cocoa Touch Tool[2613:f07] CFPreferences: user home directory at file://localhost/Users/cyh/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compiling /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/en.lproj/KNViewController.xib747caca3a965b641^3e0964a6a965b641^-235"2012-11-28 11:08:38.261 Interface Builder Cocoa Touch Tool[2613:f07] CFPreferences: user home directory at file://localhost/Users/cyh/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/en.lproj/KNViewController.xib0000000000000000^940"CompileXIB OpenGLES2ShaderRanderDemo/en.lproj/KNViewController.xib    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/en.lproj/KNViewController.nib /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/en.lproj/KNViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"68B5A423-F4D7-427F-A03D-5DB43CE3FD22-
+
+CCopyPNGFile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default-568h@2x.png OpenGLES2ShaderRanderDemo/Default-568h@2x.png
+s375754977.334866
+e375754977.460667
+r1
+xCopyPNGFile
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default-568h@2x.png
+xOpenGLES2ShaderRanderDemo/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"CopyPNGFile build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default-568h@2x.png OpenGLES2ShaderRanderDemo/Default-568h@2x.pngeecf55e19065b641^82ff75e19065b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/Default-568h@2x.png0000000000000000^719"CopyPNGFile "build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default-568h@2x.png" "OpenGLES2ShaderRanderDemo/Default-568h@2x.png"    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/Default-568h@2x.png" "/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default-568h@2x.png"36"39C80075-5E1E-45AD-9DC6-0EA4316E9321-
+
+CCopyPNGFile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default.png OpenGLES2ShaderRanderDemo/Default.png
+s375754976.567144
+e375754977.333618
+r1
+xCopyPNGFile
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default.png
+xOpenGLES2ShaderRanderDemo/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"CopyPNGFile build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default.png OpenGLES2ShaderRanderDemo/Default.png0e4991e09065b641^0e8755e19065b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/Default.png0000000000000000^679"CopyPNGFile build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default.png OpenGLES2ShaderRanderDemo/Default.png    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/Default.png /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default.png36"EFAF55DA-75A4-424D-95E0-24080243CE55-
+
+CCopyPNGFile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default@2x.png OpenGLES2ShaderRanderDemo/Default@2x.png
+s375754976.831971
+e375754977.383192
+r1
+xCopyPNGFile
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default@2x.png
+xOpenGLES2ShaderRanderDemo/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CopyPNGFile build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default@2x.png OpenGLES2ShaderRanderDemo/Default@2x.png1711d5e09065b641^ed2c62e19065b641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/Default@2x.png0000000000000000^699"CopyPNGFile "build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default@2x.png" "OpenGLES2ShaderRanderDemo/Default@2x.png"    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/Default@2x.png" "/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Default@2x.png"36"1446BC9C-E02E-4A51-99D5-7BA3670C2C2B-
+
+CCopyStringsFile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/en.lproj/InfoPlist.strings OpenGLES2ShaderRanderDemo/en.lproj/InfoPlist.strings
+s375754976.323084
+e375754976.565771
+r1
+xCopyStringsFile
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/en.lproj/InfoPlist.strings
+xOpenGLES2ShaderRanderDemo/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy OpenGLES2ShaderRanderDemo/en.lproj/InfoPlist.stringsd6c852e09065b641^5ad790e09065b641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/en.lproj/InfoPlist.strings0000000000000000^652"CopyStringsFile build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/en.lproj/InfoPlist.strings OpenGLES2ShaderRanderDemo/en.lproj/InfoPlist.strings    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/en.lproj -- OpenGLES2ShaderRanderDemo/en.lproj/InfoPlist.strings36"2C2EFD49-BC9D-4F7C-8BAF-549955287257-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/ResourceRules.plist
+s375754972.149348
+e375754972.156778
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/ResourceRules.pliste35526dc9065b641^922428dc9065b641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/ResourceRules.plist000000000080d041^788"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/ResourceRules.plist    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app36"02A087CD-9902-4EDD-B22D-171AF180711D-
+
+CCpResource 1280.mp4 build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1280.mp4
+s375761592.160699
+e375761594.693877
+r1
+xCpResource
+x1280.mp4
+xbuild/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1280.mp4
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1280.mp4bd3829b8aa65b641^f4a3b1baaa65b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1280.mp4000000000080d041^603"CpResource 1280.mp4 build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1280.mp4    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/1280.mp4 /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app36"1C8436E1-B6B9-42A4-B32A-3C572EAC99CE-
+
+CCpResource 1920.MOV build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1920.MOV
+s375759529.663606
+e375759532.849347
+r1
+xCpResource
+x1920.MOV
+xbuild/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1920.MOV
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1920.MOV23f6a9a9a265b641^5070d9aca265b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1920.MOV000000000080d041^603"CpResource 1920.MOV build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/1920.MOV    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/1920.MOV /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app36"2CA2B216-0CBD-49EC-AE0F-B0014D19E4F5-
+
+CCpResource mov.mp4 build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/mov.mp4
+s375759195.735546
+e375759196.628026
+r1
+xCpResource
+xmov.mp4
+xbuild/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/mov.mp4
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/mov.mp4a661bc5ba165b641^9dd7a05ca165b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/mov.mp4000000000080d041^600"CpResource mov.mp4 build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/mov.mp4    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/mov.mp4 /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app36"34C56255-0592-45DE-9BF5-81F7A74C7C5A-
+
+CCpResource snsd.mp4 build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/snsd.mp4
+s375754976.322599
+e375754976.830586
+r1
+xCpResource
+xsnsd.mp4
+xbuild/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/snsd.mp4
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/snsd.mp48faa52e09065b641^be33dae09065b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/snsd.mp4000000000080d041^603"CpResource snsd.mp4 build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/snsd.mp4    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/snsd.mp4 /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app36"18A2BD4E-1838-4D7C-9D6D-4DDDFDD1E3E2-
+
+CGenerateDSYMFile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app.dSYM /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/OpenGLES2ShaderRanderDemo
+s375761637.116697
+e375761640.212434
+r1
+xGenerateDSYMFile
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app.dSYM
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/OpenGLES2ShaderRanderDemo
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Generating /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app.dSYMe9f31de5aa65b641^9b7136e8aa65b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app.dSYM/0000000000000000^737"GenerateDSYMFile build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app.dSYM build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/OpenGLES2ShaderRanderDemo    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/OpenGLES2ShaderRanderDemo -o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app.dSYM36"829C239B-6F73-456D-961C-D51EE7341B7B-
+
+CLd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/OpenGLES2ShaderRanderDemo normal armv7
+s375761588.845270
+e375761589.281059
+r1
+xLd
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/OpenGLES2ShaderRanderDemo
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Link /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/OpenGLES2ShaderRanderDemobaa4dab4aa65b641^c71048b5aa65b641^---0#0#0#--1401"Ld build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/OpenGLES2ShaderRanderDemo normal armv7    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos -L/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/FFmpeg_Angel/lib -F/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos -filelist /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/Objects-normal/armv7/OpenGLES2ShaderRanderDemo.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=4.3 -lz.1.1.3 -framework OpenGLES -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -lavcodec -lavdevice -lavformat -lavutil -lswresample -lswscale -o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/OpenGLES2ShaderRanderDemo36"01E6A17E-95AB-4FFB-AD52-22D8B5576FD0-
+
+CProcessInfoPlistFile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Info.plist OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Info.plist
+s375754972.149930
+e375754972.156898
+r1
+xProcessInfoPlistFile
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Info.plist
+xOpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Process OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Info.pliste77326dc9065b641^cf3128dc9065b641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Info.plist0000000000000000^922"ProcessInfoPlistFile build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Info.plist OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Info.plist    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Info.plist -genpkginfo /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/ResourceRules.plist -o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/Info.plist36"791508EF-589E-4696-B6E0-AAB36F14EAFC-
+
+CProcessPCH /Users/cyh/Library/Developer/Xcode/DerivedData/OpenGLES2ShaderRanderDemo-catqqhnufvezvrfdyppwtjgyukic/Index/PrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-ctfffhxneondxffmlonodsegyclw_ast/OpenGLES2ShaderRanderDemo-Prefix.pch.pth OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch.pth OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375754972.165145
+e375754972.639641
+r1
+xProcessPCH
+x/var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch.pth
+xOpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Precompile OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Prefix.pchb0702adc9065b641^7e90a5dc9065b641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Prefix.pch0000000000000000^3755"ProcessPCH /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch.pth OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-generated-files.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-own-target-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-all-target-headers.hmap -iquote /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo-project-headers.hmap -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/include -IFFmpeg_Angel/include -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources/armv7 -I/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/DerivedSources -F/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos --serialize-diagnostics /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch.dia -c /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo/OpenGLES2ShaderRanderDemo-Prefix.pch -o /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/6w/zqyxnt4523v5lpcy7xtb5ljm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGLES2ShaderRanderDemo-Prefix-dnpudkuvtwlvxeakwnprqnncnpju/OpenGLES2ShaderRanderDemo-Prefix.pch.d36"60BC2E0B-FE2B-42EA-AF22-5005F60BACF2-
+
+CProcessProductPackaging "/Users/cyh/Library/MobileDevice/Provisioning Profiles/ACC8BAB4-8A05-4370-95C8-B1FF43AB6818.mobileprovision" /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/embedded.mobileprovision
+s375754977.669145
+e375754977.672426
+r1
+xProcessProductPackaging
+x/Users/cyh/Library/MobileDevice/Provisioning Profiles/ACC8BAB4-8A05-4370-95C8-B1FF43AB6818.mobileprovision
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection208"ProcessProductPackaging "/Users/cyh/Library/MobileDevice/Provisioning Profiles/ACC8BAB4-8A05-4370-95C8-B1FF43AB6818.mobileprovision" build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/embedded.mobileprovision2369abe19065b641^1635ace19065b641^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/embedded.mobileprovision0000000000000000^732"ProcessProductPackaging "/Users/cyh/Library/MobileDevice/Provisioning Profiles/ACC8BAB4-8A05-4370-95C8-B1FF43AB6818.mobileprovision" build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/embedded.mobileprovision    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/cyh/Library/MobileDevice/Provisioning Profiles/ACC8BAB4-8A05-4370-95C8-B1FF43AB6818.mobileprovision" -o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app/embedded.mobileprovision36"F464D54F-9813-413E-B9B1-0BE10436AB84-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo.xcent
+s375754977.702464
+e375754977.745234
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection261"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo.xcent78f0b3e19065b641^6ad9bee19065b641^---0#0#0#-19%DVTDocumentLocation2@184"file://localhost/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo.xcent000000000080d041^864"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo.xcent    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/OpenGLES2ShaderRanderDemo.build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.build/OpenGLES2ShaderRanderDemo.xcent36"61D495DA-BB63-4412-AACC-850489A068C6-
+
+CTouch /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app
+s375761594.719514
+e375761594.730537
+r1
+xTouch
+x/Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Touch /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.appbb64b8baaa65b641^5305bbbaaa65b641^---0#0#0#--429"Touch build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app    cd /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/MAC2/gitHub/repo/OpenGLES2ShaderRanderDemo/build/Debug-iphoneos/OpenGLES2ShaderRanderDemo.app36"0B0C0EC8-C271-4104-8E89-033B1A6A669C-
+
