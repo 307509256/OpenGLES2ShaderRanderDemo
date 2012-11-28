@@ -68,7 +68,10 @@
         [dec release];
         [reader release];
         
-        [sender performSelectorOnMainThread:@selector(setEnabled:) withObject:[NSNumber numberWithBool:YES] waitUntilDone:NO];
+
+        dispatch_sync(dispatch_get_main_queue(), ^{
+            [sender setEnabled:YES];
+        });
     });
 }
 

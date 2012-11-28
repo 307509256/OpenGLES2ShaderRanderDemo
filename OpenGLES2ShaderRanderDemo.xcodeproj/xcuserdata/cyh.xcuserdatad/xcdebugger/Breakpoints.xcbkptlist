@@ -73,11 +73,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "OpenGLES2ShaderRanderDemo/KNViewController.m"
-         timestampString = "375761603.532791"
+         timestampString = "375762340.670341"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "87"
-         endingLineNumber = "87"
+         startingLineNumber = "90"
+         endingLineNumber = "90"
          landmarkName = "-resizeUIView:"
          landmarkType = "5">
       </FileBreakpoint>
